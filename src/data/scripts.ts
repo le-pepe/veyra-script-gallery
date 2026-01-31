@@ -32,6 +32,22 @@ export const scripts: Script[] = [
         rating: 4.7,
         createdAt: '2026-01-28'
     },
+    {
+        id: 'demonic-scans-auto-navigator',
+        name: 'Demonic Scans Auto Navigator Pro',
+        description: 'Automates chapter navigation and reactions while reading manga. Tracks stamina and farm limits, skips already-reacted chapters, and includes a clean HUD with pause/stop controls.',
+        author: 'LePepe',
+        version: '1.8',
+        category: 'Farm Stamina',
+        tags: ['manga', 'reader', 'auto', 'navigation', 'reactions', 'stamina'],
+        icon: '📖',
+        fileUrl: '/scripts/demonic-scans-auto-navigator.user.js',
+        match: 'https://demonicscans.org/title/*/chapter/*',
+        grant: [],
+        installs: 3245,
+        rating: 4.7,
+        createdAt: '2026-01-29'
+    }
 ];
 
 export const categories = [
