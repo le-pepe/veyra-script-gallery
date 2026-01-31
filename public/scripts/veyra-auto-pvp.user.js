@@ -4,7 +4,7 @@
 // @description  Auto PvP matchmaking
 // @icon         https://cdn.rafled.com/anime-icons/images/0QIMre8lvSv8.jpg
 // @author       Qito
-// @match        https://demonicscans.org/pvp.php
+// @match        https://demonicscans.org/pvp.php*
 // @grant        GM.xmlHttpRequest
 // ==/UserScript==
 

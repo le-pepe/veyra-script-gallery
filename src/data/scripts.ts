@@ -25,7 +25,7 @@ export const scripts: Script[] = [
         category: 'Utilities',
         tags: ['pvp', 'auto', 'matchmaking', 'battle', 'veyra'],
         icon: '⚔️',
-        fileUrl: '/scripts/verya-auto-pvp.user.js',
+        fileUrl: '/scripts/veyra-auto-pvp.user.js',
         match: 'https://demonicscans.org/pvp.php',
         grant: ['GM.xmlHttpRequest'],
         installs: 8543,
