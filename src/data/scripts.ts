@@ -7,7 +7,7 @@ export const scripts: Script[] = [
         description: 'Add a loot button to the fight monster button when the monster is dead and is possible to loot',
         author: 'LePepe',
         version: '1.3',
-        category: 'Utilities',
+        category: 'Loot',
         tags: ['loot', 'dungeon', 'veyra'],
         icon: '📜',
         fileUrl: '/scripts/dungeon-loot-button.user.js',
@@ -47,6 +47,22 @@ export const scripts: Script[] = [
         installs: 3245,
         rating: 4.7,
         createdAt: '2026-01-29'
+    },
+    {
+        id: 'veyra-specific-mob-loot',
+        name: 'Veyra Complete Enhancement Suite',
+        description: 'All-in-one enhancement: customizable UI, battle modals, equipment/pet teams, auto-potions (HP/Stamina), PvP battle prediction, loot highlighting with damage requirements, custom backgrounds, keyboard hotkeys (1-9 for monsters, SPHUL for attacks), quest widget, and extensive settings.',
+        author: 'Community',
+        version: '1.0',
+        category: 'Extra',
+        tags: ['veyra', 'ui', 'enhancement', 'automation', 'loot', 'battle', 'pets', 'equipment', 'hotkeys', 'potions'],
+        icon: '⚙️',
+        fileUrl: '/scripts/specific-mob-loot.user.js',
+        match: 'https://demonicscans.org/*',
+        grant: ['GM_addStyle', 'GM_setValue', 'GM_getValue'],
+        installs: 12456,
+        rating: 4.9,
+        createdAt: '2026-01-20'
     }
 ];
 

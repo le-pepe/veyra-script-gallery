@@ -26,7 +26,7 @@ function App() {
     }, [searchQuery, selectedCategory]);
 
     return (
-        <div className="flex min-h-screen flex-col bg-linear-to-b from-background to-secondary/20">
+        <div className="flex min-h-dvh flex-col bg-linear-to-b from-background to-secondary/20">
             <div className="container mx-auto flex-1 px-4 py-8">
                 {/* Header */}
                 <header className="mb-12 text-center">
